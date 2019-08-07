@@ -1,3 +1,5 @@
+variable "project_id" {}
+variable "project_roles" {}
 variable "project_name" {}
 variable "billing_account" {}
 variable "org_id" {}
