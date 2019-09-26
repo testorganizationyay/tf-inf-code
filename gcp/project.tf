@@ -5,6 +5,7 @@ variable "org_id" {}
 variable "folder_id" {}
 variable "region" {}
 variable "skip_delete" {}
+variable "billing_id" {}
 
 provider "google" {
  region = "${var.region}"
