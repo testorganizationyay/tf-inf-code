@@ -1,17 +1,9 @@
 variable "project_id" {}
-variable "project_roles" {}
 variable "project_name" {}
 variable "org_id" {}
 variable "folder_id" {}
-variable "region" {}
 variable "skip_delete" {}
 variable "billing_id" {}
-variable "enabled_apis" {}
-variable "service_accounts" {}
-
-provider "google" {
- region = "${var.region}"
-}
 
 resource "google_project" "project" {
  name            = "${var.project_name}"
