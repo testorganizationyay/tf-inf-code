@@ -1,4 +1,5 @@
 variable "project_id" {}
+variable "role_bindings" {}
 variable "project_name" {}
 variable "org_id" {}
 variable "folder_id" {}
